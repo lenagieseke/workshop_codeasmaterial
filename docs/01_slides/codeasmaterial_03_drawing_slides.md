@@ -8,11 +8,13 @@ class: center, middle, inverse
 
 #### - Drawing -
 
-<br /><br />
+<br />
 ### Prof. Dr. Lena Gieseke | l.gieseke@filmuniversitaet.de  
 
 #### Film University Babelsberg KONRAD WOLF
 
+<br />
+.center[<img src="./img/iart_logo_01.png" alt="iart_logo_01" style="width:100%;">]
 
 
 ---

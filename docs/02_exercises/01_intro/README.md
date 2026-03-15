@@ -10,6 +10,11 @@ nav_order: 1
 
   
 Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de  
+
+![iart_logo_01](../../01_slides/img/iart_logo_01.png)
+
+---
+
   
   
 ## Exercise 01 - Introduction  

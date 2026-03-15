@@ -1,15 +1,21 @@
 ---
 layout: default
 title: Exercises
-nav_order: 4
+nav_order: 3
 has_children: true
 ---
 
 
-# Creative Coding For Beginners
-  
-Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de  
-  
+### Code as Material
+# Creative Coding Foundations for Artistic and Design Practices
+
+
+#### Prof. Dr. Lena Gieseke | lena.gieseke@filmuniversitaet.de  
+
+<br />
+
+![iart_logo_01](./01_slides/img/iart_logo_01.png)
+
 
 # Exercises
 

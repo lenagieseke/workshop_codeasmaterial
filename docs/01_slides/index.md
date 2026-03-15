@@ -5,10 +5,17 @@ nav_order: 2
 has_children: false
 ---
 
-# Creative Coding For Beginners
-  
-Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de  
-  
+### Code as Material
+# Creative Coding Foundations for Artistic and Design Practices
+
+
+#### Prof. Dr. Lena Gieseke | lena.gieseke@filmuniversitaet.de  
+
+<br />
+
+![iart_logo_01](./01_slides/img/iart_logo_01.png)
+
+
 # Slides
 
 
@@ -18,8 +25,10 @@ In this section you find all slides for the course.
 * [Slides 01 - Intro](ccfb_ss25_01_intro_slides.html)
 * [Slides 02 - Setup](ccfb_ss25_02_setup_slides.html)
 * [Slides 03 - Drawing](ccfb_ss25_03_drawing_slides.html)
-<!-- 
 
+  
+<!--
+  
 * [Slides 04 - Program Flow & Interaction](ccfb_ss25_04_flow_slides.html)
 * [Slides 05 - Conditionals](ccfb_ss25_05_conditionals_slides.html)
 * [Slides 06 - Variables](ccfb_ss25_06_variables_slides.html)
@@ -30,15 +39,17 @@ In this section you find all slides for the course.
 * [Slides 11 - Libraries](./ccfb_ss25_11_libraries_slides.html)
 * [Slides 13 - The Jumping Game and Wrap Up](./ccfb_ss25_12_wrapup_slides.html)
 
-   -->
+-->
 
 
   
   
-Also see the script for each topic.
+<!--
 
 ## Code Examples
 
+
+  
 Week 9
   
 * [Tutorial Jumping Game - Steps](./ccfb_ss25_tutorial_jumping_game.md)
@@ -80,6 +91,7 @@ Week 2
 * [Mouse & Keys Input](https://editor.p5js.org/legie/sketches/HDWQbzDU8)
 
 
+
 Week 1
 
 * [Circles](https://editor.p5js.org/legie/sketches/cikqyBxbd)
@@ -87,3 +99,6 @@ Week 1
 * [House](https://editor.p5js.org/legie/sketches/CM0lOfVej)
 * [Sunset](https://editor.p5js.org/legie/sketches/YTAZHoV9G)
 * [Rainbow](https://editor.p5js.org/legie/sketches/nDLR627Oo)
+
+
+-->
