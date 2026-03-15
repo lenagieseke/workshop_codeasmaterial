@@ -11,7 +11,7 @@ has_children: false
 
 #### Prof. Dr. Lena Gieseke | lena.gieseke@filmuniversitaet.de  
 
-![](./01_slides/intro/iart_logo_01.png)
+![iart_logo_01](./01_slides/iart_logo_01.png)
 
 ---
 

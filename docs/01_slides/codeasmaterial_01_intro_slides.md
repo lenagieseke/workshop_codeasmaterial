@@ -238,22 +238,22 @@ What is *creative* coding?
 ---
 .header[Code as Material]
 
-.center[<img src="./img/intro/brera_poster_b_01.png" alt="brera_poster_b_01" style="width:40%;">]
+.center[<img src="./img/intro/brera_poster_b_01.png" alt="brera_poster_b_01" style="width:36%;">]
 
 ---
 .header[Code as Material]
 
-.center[<img src="./img/intro/brera_poster_a_01.png" alt="brera_poster_a_01" style="width:40%;">]
+.center[<img src="./img/intro/brera_poster_a_01.png" alt="brera_poster_a_01" style="width:36%;">]
 
 ---
 .header[Code as Material]
 
-.center[<img src="./img/intro/brera_poster_c_01.png" alt="brera_poster_c_01" style="width:80%;">]
+.center[<img src="./img/intro/brera_poster_c_01.png" alt="brera_poster_c_01" style="width:76%;">]
 
 ---
 .header[Code as Material]
 
-.center[<img src="./img/intro/brera_poster_f_01.png" alt="brera_poster_f_01" style="width:80%;">]
+.center[<img src="./img/intro/brera_poster_f_01.png" alt="brera_poster_f_01" style="width:76%;">]
 
 ---
 .header[Code as Material]
@@ -364,15 +364,11 @@ template: inverse
 * 19/03, 14.00 - 18.00 (4h): workshop (room 32)  
 * 20/03, 14.00 - 18.00 (4h): workshop (room 32)  
 
-
 ---
 .header[Administration]
 
 ## Materials
 
---
-
-TODO: add QR Code
 
 All materials are published on the [course website](https://lenagieseke.github.io/workshop_codeasmaterial/)
 
@@ -385,6 +381,16 @@ All materials are published on the [course website](https://lenagieseke.github.i
 All coding is done in with the [p5.js Editor](https://editor.p5js.org/)
 
 * **Please sign up for an account!**
+
+
+---
+.header[Administration | Materials]
+
+
+[https://lenagieseke.github.io/workshop_codeasmaterial/](https://lenagieseke.github.io/workshop_codeasmaterial/)
+
+.center[[<img src="./img/intro/qr_website.png" alt="qr_website" style="width:50%;">](https://lenagieseke.github.io/workshop_codeasmaterial/)]
+
 
 
 ---
