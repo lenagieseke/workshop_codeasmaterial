@@ -33,7 +33,7 @@ Open [https://editor.p5js.org/](https://editor.p5js.org/)
 ---
 layout: false
 
-## p5.js
+## [p5.js](https://p5js.org/)
 
 * p5.js is a library for the programming language **JavaScript**
 
@@ -49,6 +49,12 @@ Think software and Plugin
     * Processing came first
     * p5 is Processing running in a Webbrowser
     * They are very similar
+  
+--
+  
+<br />
+* Website: [https://p5js.org/](https://p5js.org/)  
+* Editor: [https://editor.p5js.org/](https://editor.p5js.org/)
 
 ---
 
@@ -70,8 +76,6 @@ Think software and Plugin
 ???
   
 
-* Next week
-
 .center[[![youtube](https://img.youtube.com/vi/_8DMEHxOLQE/0.jpg)](https://www.youtube.com/watch?v=_8DMEHxOLQE)]
 
 ---
@@ -79,7 +83,11 @@ Think software and Plugin
 
 ## Resources & Community
 
+--
+
 One of the aspects that made Processing, and now p5, so popular is its community and the vast amount of resources.
+
+--
 
 * [p5](https://p5js.org/)
 * [p5 Reference](https://p5js.org/reference/)
@@ -159,7 +167,7 @@ Show: [p5.js Editor](https://editor.p5js.org/)
 ---
 template:inverse
 
-### Remember
+### Keep in Mind
 
 # Errors Are Our...
 

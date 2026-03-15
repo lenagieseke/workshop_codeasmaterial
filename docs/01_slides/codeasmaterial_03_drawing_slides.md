@@ -3,8 +3,8 @@ layout: true
 class: center, middle, inverse
 ---
 
-# Code as Material
-## From Instruction to Expression
+### Code as Material
+## Creative Coding Foundations for Artistic and Design Practices
 
 #### - Drawing -
 
@@ -352,29 +352,10 @@ function draw() {
 
 .right-even[<img src="../02_scripts/img/drawing/ch01_12.png" alt="name" style="width:100%;">]
 
----
-.header[Drawing]
+???
+Show in Editor
 
-## Drawing Function Calls
-
-<script type="text/p5" data-p5-version="1.6.0" data-height="400" data-preview-width="360" >
-function setup() {
-
-    createCanvas(300, 300);
-}
-
-function draw() {
-
-    point(100, 200);
-}
-</script>
-
----
-.header[Drawing]
-
-## Drawing Function Calls
-
-<script type="text/p5" data-p5-version="1.6.0" data-height="400" data-preview-width="360" >
+```
 function setup() {
 
     createCanvas(300, 300);
@@ -384,7 +365,7 @@ function draw() {
 
     circle(300, 200, 50);
 }
-</script>
+```
 
 ---
 .header[Drawing]
@@ -440,6 +421,20 @@ function draw() {
     line(50, 50, 250, 250);
 }
 </script>
+
+???
+```
+function setup() {
+
+    createCanvas(300, 300);
+    background(200);
+}
+
+function draw() {
+
+    line(50, 50, 250, 250);
+}
+```
 
 
 ---
@@ -590,6 +585,25 @@ function draw() {
 }
 </script>
 
+???
+```
+function setup() {
+    createCanvas(300, 300);
+}
+
+function draw() {
+
+    beginShape();
+
+    vertex(270, 10);
+    vertex(20, 150);
+    vertex(240, 280);
+    vertex(290, 240);
+
+    endShape();
+}
+```
+
 
 
 ---
@@ -610,7 +624,7 @@ template: inverse
 
 --
 
-By default Processing uses RGBA-color space with
+By default p5 uses RGBA-color space with
 
 * red, green, blue, alpha
 * 0 … 255
@@ -675,6 +689,17 @@ function draw() {
 }
 </script>
 
+???
+```
+function setup() {
+    createCanvas(300, 300);
+}
+
+function draw() {
+    background(0, 255, 0);
+}
+```
+
 
 ---
 .header[Colors]
@@ -711,6 +736,23 @@ function draw() {
     circle(150, 150, 150);
 }
 </script>
+
+???
+```
+function setup() {
+    createCanvas(300, 300);
+}
+
+function draw() {
+    background(0, 255, 0);
+
+    fill(0, 0, 255);
+    stroke(255, 0, 0);
+    strokeWeight(5);
+
+    circle(150, 150, 150);
+}
+```
 
 
 ---
@@ -756,6 +798,34 @@ function draw() {
 }
 </script>
 
+???
+
+```
+function setup() {
+    createCanvas(300, 400);
+    // Background color of the canvas
+    background(0, 0, 0);
+}
+
+function draw() {
+    // Rectangle left
+    fill(0, 0, 255); 
+    noStroke();
+    rect(10, 10, 150, 200);
+
+    // Ellipse
+    fill(255, 0, 0);
+    stroke(255, 255, 255);
+    strokeWeight(10);
+    ellipse(150, 150, 150, 200);
+
+    // Rectangle right
+    fill(255,168,233);
+    strokeWeight(20);
+    rect(150, 150, 120, 200);
+}
+```
+
 ---
 
 ## Color Function Calls - Example
@@ -779,6 +849,27 @@ function draw() {
     rect(0, 250, 500, 250);
 }
 </script>
+
+???
+
+```
+function setup() {
+    createCanvas(300, 400);
+    // Background color of the canvas
+    background(255, 200, 10);
+}
+
+function draw() {
+    // Ellipse
+    fill(255, 150, 0);
+    noStroke();
+    ellipse(150, 240, 200, 200);
+
+    // Rectangle ground
+    fill(255, 255, 0); 
+    rect(0, 250, 500, 250);
+}
+```
 
 ---
 
@@ -825,6 +916,45 @@ function draw() {
 }
 </script>
 
+???
+
+```
+function setup() {
+    createCanvas(400, 420);
+    noStroke();
+}
+
+function draw() {
+    // red
+    fill(255, 0, 0);
+    rect(0, 0, 400, 60);
+
+    // orange
+    fill(255, 165, 0);
+    rect(0, 60, 400, 60);
+
+    // yellow
+    fill(255, 255, 0);
+    rect(0, 120, 400, 60);
+
+    // green
+    fill(0, 255, 0);
+    rect(0, 180, 400, 60);
+
+    // blue
+    fill(0, 0, 255);
+    rect(0, 240, 400, 60);
+
+    // indigo
+    fill(75, 0, 130);
+    rect(0, 300, 400, 60);
+
+    // violet
+    fill(148, 0, 211);
+    rect(0, 360, 400, 60);
+}
+```
+
 ---
 
 ## Color Function Calls - Example
@@ -870,6 +1000,48 @@ function draw() {
     arc(150, 200, 100, 100, PI, 2*PI);
 }
 </script>
+
+???
+
+```
+
+function setup() {
+    createCanvas(300, 400);
+    noFill();
+    strokeWeight(20);
+}
+
+function draw() {
+
+     // red
+    stroke(255, 0, 0);
+    arc(150, 200, 280, 280, PI, 2*PI);
+
+    // orange
+    stroke(255, 165, 0);
+    arc(150, 200, 250, 250, PI, 2*PI);
+
+    // yellow
+    stroke(255, 255, 0);
+    arc(150, 200, 220, 220, PI, 2*PI);
+
+    // green
+    stroke(0, 255, 0);
+    arc(150, 200, 190, 190, PI, 2*PI);
+
+    // blue
+    stroke(0, 0, 255);
+    arc(150, 200, 160, 160, PI, 2*PI);
+
+    // indigo
+    stroke(75, 0, 130);
+    arc(150, 200, 130, 130, PI, 2*PI);
+
+    // violet
+    stroke(148, 0, 211);
+    arc(150, 200, 100, 100, PI, 2*PI);
+}
+```
 
 
 
@@ -965,8 +1137,16 @@ template:inverse
 
 Look it up in the reference: https://p5js.org/reference/
 
+--
+
 * The reference is like a dictionary of the programming language  
+
+--
+
 * Learning to work with the reference is as important as learning the programming syntax
+
+--
+
 * I recommend to bookmark this page as you will come back to is many, many times
 
 ---

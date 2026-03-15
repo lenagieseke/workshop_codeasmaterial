@@ -11,9 +11,11 @@ has_children: false
 
 #### Prof. Dr. Lena Gieseke | lena.gieseke@filmuniversitaet.de  
 
+![](./01_slides/intro/iart_logo_01.png)
+
 ---
 
-![learningliftoff](./02_scripts/img/intro/programming_01.png)  
+![learningliftoff](./01_slides/img/intro/programming_01.png)  
 [[learningliftoff]](https://www.learningliftoff.com/wp-content/uploads/2014/09/Prog.png)  
 
 The workshop provides a fundamental introduction to programming with an emphasis on graphics, sound, and interaction. Using the p5.js framework, students develop essential programming skills while exploring code as an expressive medium.
