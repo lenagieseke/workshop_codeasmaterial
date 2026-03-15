@@ -68,10 +68,10 @@ Please note that topics are subject to change during the course!
 
 ## Policies
 
-* **Plagiarism**: in programming and in times of AI-tools, the concept of plagiarism is relatively elusive. We are working with open-source tools and libraries, building upon the work of a multitude of people. You are encouraged and expected to tap into resources available online, and to copy-paste and tweak code you may not fully understand. However, it is categorically forbidden to outsource work to people outside the course or copy & paste, meaning plagiarize, assignments as a whole from others. 
-* **Tools and utilities**: In general, you are allowed to use any tools you want, also AI-tools, but you are required to list and briefly describe the usage of such tools in your submission. However, in this class, I recommend that you follow my guidance on when to employ the help of an AI-tool and when not. Please, always make sure to utilize such tools for supporting your learning! 
-* **Absences**: you are responsible for what happens in class whether you are here or not. I do not repeat content for you that you have missed because you were not in class.
-* **Participation**: you are invited, encouraged, and expected to engage actively in discussion, reflection and activities. Also, you can exist for a few hours without chatting, texting or emailing on your computer and cellphone. I notice it and perceive it as quite rude if you don't pay attention, and I prefer that you only come to class if you are actually participating. 
+* **Plagiarism**: In programming and in times of AI-tools, the concept of plagiarism is relatively elusive. We are working with open-source tools and libraries, building upon the work of a multitude of people. You are encouraged and expected to tap into resources available online, and to copy-paste and tweak code you may not fully understand. However, it is categorically forbidden to outsource work to people outside the course or copy & paste, meaning plagiarize, assignments as a whole from others. 
+* **Tools and utilities**: In general, you are allowed to use any tools you want, also AI-tools. Please, always make sure to utilize such tools for supporting your learning! 
+* **Absences**: You are responsible for what happens in class whether you are here or not. I do not repeat content for you that you have missed because you were not in class.
+* **Participation**: You are invited, encouraged, and expected to engage actively in discussion, reflection and activities. Also, you can exist for a few hours without chatting, texting or emailing on your computer and cellphone.
 * **Recording**: There are no recordings of the classes. No student may record any classroom activity without consent from me. If you have a disability such that you think you need to record classroom activities, get in touch with me.
 
 
