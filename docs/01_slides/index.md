@@ -13,7 +13,7 @@ has_children: false
 
 <br />
 
-![iart_logo_01](./01_slides/img/iart_logo_01.png)
+![iart_logo_01](../01_slides/img/iart_logo_01.png)
 
 
 # Slides

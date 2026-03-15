@@ -14,7 +14,8 @@ has_children: true
 
 <br />
 
-![iart_logo_01](./01_slides/img/iart_logo_01.png)
+![iart_logo_01](../01_slides/img/iart_logo_01.png)
+
 
 
 # Exercises

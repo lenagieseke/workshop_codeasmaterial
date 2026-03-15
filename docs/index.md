@@ -17,8 +17,7 @@ has_children: false
 
 ---
 
-![learningliftoff](./01_slides/img/intro/programming_01.png)  
-[[learningliftoff]](https://www.learningliftoff.com/wp-content/uploads/2014/09/Prog.png)  
+![learningliftoff](./01_slides/img/intro/programming_01.png) [[learningliftoff]](https://www.learningliftoff.com/wp-content/uploads/2014/09/Prog.png)  
 
 The workshop provides a fundamental introduction to programming with an emphasis on graphics, sound, and interaction. Using the p5.js framework, students develop essential programming skills while exploring code as an expressive medium.
 
@@ -57,64 +56,6 @@ We apply these programming skills to implement:
   
 
 Please note that topics are subject to change during the course!
-
-### Schedule
-
-TODO:
-
-| Session | Topic               | Subtopics               |
-| ------- | ------------------- | ----------------------- |
-| 1       | Introductions       | Course                  |
-|         |                     | Participants            |
-|         |                     | Materials               |
-|         | Setup               | p5.js Editor            |
-|         |                     | Environment             |
-|         |                     | System Loop             |
-|         | Drawing             | Canvas                  |
-|         |                     | Drawing Commands        |
-|         |                     | Colors                  |
-| 2       | Programming         | Why                     |
-|         |                     | What                    |
-|         |                     | Algorithms              |
-|         |                     | Help From AI            |
-|         | Program Flow        | Commands                |
-|         |                     | Functions calls         |
-|         |                     | Parentheses             |
-|         |                     | Formatting              |
-| 3       | Interaction         | Mouse                   |
-|         |                     | Keyboard                |
-|         |                     | if-else                 |
-|         | Programming Example | Divide and conquer      |
-|         |                     | Screen Clearing         |
-|         | References          | Documentation           |
-|         |                     | Discover OpenProcessing |
-| 4       | Variables           | Data Types              |
-|         |                     | Scope                   |
-|         | Operators           | Example                 |
-|         |                     | Modulo                  |
-|         |                     | HSB                     |
-| 5       | Loops               | while                   |
-|         |                     | for                     |
-|         |                     | 2D Loops                |
-| 6       | Images I            | Loading & Displaying    |
-|         | Arrays              | Loop over all elements  |
-|         |                     | Example Confetti        |
-|         | Images II           | Image Data              |
-|         |                     | Pixel Data              |
-|         |                     | Image Manipulations     |
-| 7       | Functions           | Parameter               |
-|         |                     | Return value            |
-|         |                     | Why                     |
-|         | Code Structure      |                         |
-|         | Programming Example |                         |
-| 8       | Libraries           | Loading                 |
-|         |                     | Types                   |
-|         | Sound               | Loading & Playing       |
-|         |                     | Modes                   |
-| 9       | Wrap-Up             |                         |
-|         | Next Steps          |                         |
-|         | Follow-Up Sessions  |                         |
-
 
 
 ## Time and Place
