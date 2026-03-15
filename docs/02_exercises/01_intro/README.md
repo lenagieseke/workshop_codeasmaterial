@@ -32,9 +32,9 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de
 
 Recap the slides:
 
-* [Introduction](../../01_slides/codeasmaterial_01_intro_slides.html)
-* [Setup](../../01_slides/ccfb_ss25_02_setup_slides.html)
-* [Drawing](../../01_slides/ccfb_ss25_03_drawing_slides.html)
+* [Slides 01 - Intro](../../01_slides/codeasmaterial_01_intro_slides.html)
+* [Slides 02 - Setup](../../01_slides/codeasmaterial_02_setup_slides.html)
+* [Slides 03 - Drawing](../../01_slides/codeasmaterial_03_drawing_slides.html)
 
 
 ### Task 01.02 - Setup

@@ -22,9 +22,9 @@ has_children: false
 In this section you find all slides for the course.
 
 
-* [Slides 01 - Intro](ccfb_ss25_01_intro_slides.html)
-* [Slides 02 - Setup](ccfb_ss25_02_setup_slides.html)
-* [Slides 03 - Drawing](ccfb_ss25_03_drawing_slides.html)
+* [Slides 01 - Intro](../01_slides/codeasmaterial_01_intro_slides.html)
+* [Slides 02 - Setup](../01_slides/codeasmaterial_02_setup_slides.html)
+* [Slides 03 - Drawing](../01_slides/codeasmaterial_03_drawing_slides.html)
 
   
 <!--
