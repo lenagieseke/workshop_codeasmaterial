@@ -21,14 +21,24 @@ has_children: false
 
 In this section you find all slides for the course.
 
-Day 1  
+## Day 1  
 
 * [Slides 01 - Intro](../01_slides/codeasmaterial_01_intro_slides.html)
 * [Slides 02 - Setup](../01_slides/codeasmaterial_02_setup_slides.html)
 * [Slides 03 - Drawing](../01_slides/codeasmaterial_03_drawing_slides.html)
 * [Exercise Day 1](../01_slides/codeasmaterial_day1_exercises_slides.html)
 
-Day 2  
+### Code Examples
+
+* [Circles](https://editor.p5js.org/legie/sketches/cikqyBxbd)
+* [Smiley](https://editor.p5js.org/legie/sketches/OSry0JiW2)
+* [House](https://editor.p5js.org/legie/sketches/CM0lOfVej)
+* [Sunset](https://editor.p5js.org/legie/sketches/YTAZHoV9G)
+* [Rainbow](https://editor.p5js.org/legie/sketches/nDLR627Oo)
+
+
+
+## Day 2  
   
 * [Slides 04 - Program Flow & Interaction](../01_slides/codeasmaterial_04_flow_slides.html)
 * [Slides 05 - Conditionals](../01_slides/codeasmaterial_05_conditionals_slides.html)
@@ -50,9 +60,6 @@ Day 2
   
   
 
-### Code Examples
-
-<br />
 
 <!--
 
@@ -99,12 +106,4 @@ Week 2
 
 
 -->
-
-Day 1
-
-* [Circles](https://editor.p5js.org/legie/sketches/cikqyBxbd)
-* [Smiley](https://editor.p5js.org/legie/sketches/OSry0JiW2)
-* [House](https://editor.p5js.org/legie/sketches/CM0lOfVej)
-* [Sunset](https://editor.p5js.org/legie/sketches/YTAZHoV9G)
-* [Rainbow](https://editor.p5js.org/legie/sketches/nDLR627Oo)
 
