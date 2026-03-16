@@ -19,14 +19,6 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de
 ## Exercise 02 - Program Flow & Interaction
 
 
-* [Code as Material - From Instruction to Expression](#code-as-material---from-instruction-to-expression)
-    * [Exercise 02 - Program Flow \& Interaction](#exercise-02---program-flow--interaction)
-        * [Task 02.01 - Inspiration](#task-0201---inspiration)
-        * [Task 02.02 - Learning Materials](#task-0202---learning-materials)
-        * [Task 02.03 - Errors](#task-0203---errors)
-        * [Task 02.04 - Interaction](#task-0204---interaction)
-
-
 ### Task 02.01 - Inspiration
   
 Find a publicly available p5 example, e.g., from [OpenProcessing](https://openprocessing.org/discover/#/trending), that you like. Briefly describe why you like it.  
