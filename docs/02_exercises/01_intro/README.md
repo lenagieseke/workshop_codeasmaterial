@@ -19,14 +19,6 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de
   
 ## Exercise 01 - Introduction  
 
-* [Code as Material - From Instruction to Expression](#code-as-material---from-instruction-to-expression)
-    * [Exercise 01 - Introduction](#exercise-01---introduction)
-        * [Task 01.01 - Learning Materials](#task-0101---learning-materials)
-        * [Task 01.02 - Setup](#task-0102---setup)
-        * [Task 01.03 - Motivation](#task-0103---motivation)
-        * [Task 01.04 - Drawing](#task-0104---drawing)
-            * [Inspiration](#inspiration)
-
 
 ### Task 01.01 - Learning Materials
 
