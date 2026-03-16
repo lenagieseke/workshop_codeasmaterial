@@ -60,11 +60,25 @@ Please note that topics are subject to change during the course!
 
 ## Time and Place
 
-17/03, 14.00 - 18.00 (4h): workshop (room 32)  
-18/03, 12.00 - 14.00 (2 h): lecture (CIB)  
-18/03, 16.00 - 18.00 (2 h): workshop (room 32)  
-19/03, 14.00 - 18.00 (4h): workshop (room 32)  
-20/03, 14.00 - 18.00 (4h): workshop (room 32)  
+16/03, 10.00 - 13.00 (3h): workshop (Aula 38PC)  
+17/03, 14.00 - 18.00 (4h): workshop (Aula 32)  
+18/03, 12.00 - 14.00 (2h): lecture (CIB)  
+18/03, 15.00 - 18.00 (3h): workshop (Aula 32)  
+19/03, 14.00 - 18.00 (4h): workshop (Aula 32)  
+
+
+
+<!--
+
+- 16/03, 10.00 - 13.00 (3h), Aula 38PC
+- 17/03, 14.00 - 18.00 (4h), Aula 32
+- 18/03, 12.00 - 14.00 (2 h), CIB - Centro Internazionale di Brera (Via Formentini 10 – Milano): open lecture
+- 18/03, 14.00 - 18.00 (4h), Aula 32
+- 19/03, 13.30 - 17.30 (4h), Aula 32
+- 20/03, 14.00 - 18.00 (4h), Aula 32 
+
+-->
+
 
 ## Policies
 
