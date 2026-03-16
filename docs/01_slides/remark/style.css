@@ -25,12 +25,12 @@ h1, h2, h3, h4 {
 .remark-slide-content h3 { font-size: 1.3em; }
 
 li { 
-    line-height: 1.6em; 
+    line-height: 1.5em; 
     margin-left: .4em;
 }
 
 ul { 
-    margin: .4em; 
+    margin: .3em; 
 } 
 
 .red { color: #fa0000; }

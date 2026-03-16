@@ -21,17 +21,22 @@ has_children: false
 
 In this section you find all slides for the course.
 
+Day 1  
 
 * [Slides 01 - Intro](../01_slides/codeasmaterial_01_intro_slides.html)
 * [Slides 02 - Setup](../01_slides/codeasmaterial_02_setup_slides.html)
 * [Slides 03 - Drawing](../01_slides/codeasmaterial_03_drawing_slides.html)
+* [Exercise Day 1](../01_slides/codeasmaterial_day1_exercises_slides.html)
 
+Day 2  
+  
+* [Slides 04 - Program Flow & Interaction](../01_slides/codeasmaterial_04_flow_slides.html)
+* [Slides 05 - Conditionals](../01_slides/codeasmaterial_05_conditionals_slides.html)
+* [Slides 06 - Variables](../01_slides/codeasmaterial_06_variables_slides.html)
   
 <!--
   
-* [Slides 04 - Program Flow & Interaction](ccfb_ss25_04_flow_slides.html)
-* [Slides 05 - Conditionals](ccfb_ss25_05_conditionals_slides.html)
-* [Slides 06 - Variables](ccfb_ss25_06_variables_slides.html)
+
 * [Slides 07 - Loops](ccfb_ss25_07_loops_slides.html) 
 * [Slides 08 - Programming](ccfb_ss25_08_programming_slides.html) 
 * [Slides 09 - Images](ccfb_ss25_09_images_slides.html) 
@@ -44,10 +49,10 @@ In this section you find all slides for the course.
 
   
   
-<!--
 
 ## Code Examples
 
+<!--
 
   
 Week 9
@@ -91,8 +96,9 @@ Week 2
 * [Mouse & Keys Input](https://editor.p5js.org/legie/sketches/HDWQbzDU8)
 
 
+-->
 
-Week 1
+Day 1
 
 * [Circles](https://editor.p5js.org/legie/sketches/cikqyBxbd)
 * [Smiley](https://editor.p5js.org/legie/sketches/OSry0JiW2)
@@ -100,5 +106,3 @@ Week 1
 * [Sunset](https://editor.p5js.org/legie/sketches/YTAZHoV9G)
 * [Rainbow](https://editor.p5js.org/legie/sketches/nDLR627Oo)
 
-
--->
