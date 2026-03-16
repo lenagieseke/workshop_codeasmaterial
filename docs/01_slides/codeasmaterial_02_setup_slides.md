@@ -177,7 +177,7 @@ template:inverse
 ---
 
 ## Errors Are Our...
-.center[<img src="../02_scripts/img/setup/friends_01.png" alt="friends_01" style="width:80%;">]
+.center[<img src="../01_slides/img/setup/friends_01.png" alt="friends_01" style="width:80%;">]
 
 
 

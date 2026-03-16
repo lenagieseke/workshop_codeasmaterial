@@ -300,7 +300,7 @@ createCanvas(100, 100);
 * Image = to assign a color to each pixel
 ]
 
-.right-even[<img src="../02_scripts/img/drawing/ch01_10.png" alt="name" style="width:90%;">]
+.right-even[<img src="../01_slides/img/drawing/ch01_10.png" alt="name" style="width:90%;">]
 
 ---
 .header[Drawing | Canvas]
@@ -313,7 +313,7 @@ createCanvas(100, 100);
 * No individual pixel-coloring needed!
 ]
 
-.right-even[<img src="../02_scripts/img/drawing/ch01_10.png" alt="name" style="width:90%;">]
+.right-even[<img src="../01_slides/img/drawing/ch01_10.png" alt="name" style="width:90%;">]
 
 
 ???
@@ -329,7 +329,7 @@ createCanvas(100, 100);
 A point on the canvas is identified by a (x, y) coordinate based on the following coordinate system:
 ]
 
-.right-even[<img src="../02_scripts/img/drawing/ch01_12.png" alt="name" style="width:100%;">]
+.right-even[<img src="../01_slides/img/drawing/ch01_12.png" alt="name" style="width:100%;">]
 
 ---
 .header[Drawing | Canvas]
@@ -352,7 +352,7 @@ function draw() {
 ```
 ]
 
-.right-even[<img src="../02_scripts/img/drawing/ch01_12.png" alt="name" style="width:100%;">]
+.right-even[<img src="../01_slides/img/drawing/ch01_12.png" alt="name" style="width:100%;">]
 
 ???
 Show in Editor
@@ -378,7 +378,7 @@ A typical drawing function call (aka *command*) could look for example as follow
   
 <br />
 
-![ch01_13](../02_scripts/img/drawing/ch01_13.png)
+![ch01_13](../01_slides/img/drawing/ch01_13.png)
 
 --
 
@@ -403,7 +403,7 @@ Arguments:
 
 --
 
-.right-even[<img src="../02_scripts/img/drawing/ch01_14.png" alt="ch01_14" style="width:120%;">]
+.right-even[<img src="../01_slides/img/drawing/ch01_14.png" alt="ch01_14" style="width:120%;">]
 
 ---
 .header[Drawing]
@@ -458,7 +458,7 @@ Arguments:
 
 --
 
-.right-even[<img src="../02_scripts/img/drawing/ch01_15.png" alt="ch01_15" style="width:110%;">]
+.right-even[<img src="../01_slides/img/drawing/ch01_15.png" alt="ch01_15" style="width:110%;">]
 
 ---
 .header[Drawing]
@@ -516,7 +516,7 @@ Arguments:
 4. diameterHeight
 ]
 
-.right-even[<img src="../02_scripts/img/drawing/ch01_17.png" alt="ch01_15" style="width:120%;">]
+.right-even[<img src="../01_slides/img/drawing/ch01_17.png" alt="ch01_15" style="width:120%;">]
 
 ---
 .header[Drawing]
@@ -542,7 +542,7 @@ Arguments:
 
 A number of given vertices are connected with a line:
 
-.center[<img src="../02_scripts/img/drawing/ch01_26.png" alt="ch01_26" style="width:100%;">]
+.center[<img src="../01_slides/img/drawing/ch01_26.png" alt="ch01_26" style="width:100%;">]
 
 ---
 .header[Drawing]
@@ -562,7 +562,7 @@ A number of given vertices are connected with a line:
 
 A number of given vertices are connected with a line:
 
-.center[<img src="../02_scripts/img/drawing/ch01_27.png" alt="ch01_27" style="width:100%;">]
+.center[<img src="../01_slides/img/drawing/ch01_27.png" alt="ch01_27" style="width:100%;">]
 
 ---
 .header[Drawing]
@@ -646,7 +646,7 @@ By default p5 uses RGBA-color space with
 ```
 
 
-.center[<img src="../02_scripts/img/drawing/ch01_19.jpg" alt="name" style="width:80%;"> .imgref[[[tutsplus]](http://cdn.tutsplus.com/active/uploads/legacy/tuts/076_rgbShift/Tutorial/1.jpg)]]
+.center[<img src="../01_slides/img/drawing/ch01_19.jpg" alt="name" style="width:80%;"> .imgref[[[tutsplus]](http://cdn.tutsplus.com/active/uploads/legacy/tuts/076_rgbShift/Tutorial/1.jpg)]]
 
 
 ---
@@ -661,7 +661,7 @@ By default p5 uses RGBA-color space with
 * 0 = fully transparent
 * 255 = fully opaque
 
-.center[<img src="../02_scripts/img/drawing/ch01_20.png" alt="name" style="width:68%;">.imgref[[[tutsplus]](http://cdn.tutsplus.com/active/uploads/legacy/tuts/076_rgbShift/Tutorial/1.jpg)]]
+.center[<img src="../01_slides/img/drawing/ch01_20.png" alt="name" style="width:68%;">.imgref[[[tutsplus]](http://cdn.tutsplus.com/active/uploads/legacy/tuts/076_rgbShift/Tutorial/1.jpg)]]
 
 
 
