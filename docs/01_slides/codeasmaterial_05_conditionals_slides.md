@@ -1035,11 +1035,60 @@ template:inverse
 
 
 ???
+https://editor.p5js.org/legie/full/EIsuZr5gBI
 
 
-[[1] C. Reas, B. Fry (2014): Interactivity. Processing: A Programming Handbook for Visual Designers and Artists. MIT Press.](https://www.processing.org/tutorials/interactivity/)  
-[[2] MDN web docs - JavaScript data types and data structures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)  
-[[3] Programiz - JavaScript Data Types](https://www.programiz.com/javascript/data-types)  
+```
+function setup() {
+    createCanvas(300, 300);
+
+    // We set the value ranges to run from
+    // H:0..300 (same as the width of the canvas)
+    // S & B:0..100
+    colorMode(HSB, 300, 100, 100);
+    background(100);
+    //strokeWeight(8);
+}
+
+// Without mouse input (see below)
+// nothing is happening
+function draw() {}
+
+
+//function mouseDragged() {
+function mousePressed() {
+  
+    strokeWeight(random(2,18));
+  
+    // Set the color of the line
+    // to the hue that is on the 
+    // hue color spectrum from 0..300
+    // at the x position of the mouse
+    stroke(mouseX, 100, 100);
+  
+    // Draw a line from the top edge of
+    // the canvas (y = 0) to the bottom
+    // edge of the canvas (y = 300)
+    // at the x position of the mouse
+    line(mouseX, 0, mouseX, 300);
+}
+```
+
+```
+function mouseDragged() {
+  
+  if(keyIsPressed & key == 'c'){
+    stroke(0,0,100);
+  } else {
+    stroke(mouseX, 100, 100);
+  }
+  
+  
+  strokeWeight(random(1,10));
+  line(mouseX, 0, mouseX, 400);
+}
+```
+
 
 ---
 template:inverse 
