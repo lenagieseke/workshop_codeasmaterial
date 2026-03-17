@@ -15,10 +15,6 @@ class: center, middle, inverse
 
 
 ---
-
-# Images
-
----
 layout:false
 
 ## Images
@@ -29,10 +25,6 @@ layout:false
 --
 * Image Manipulations
 
---
-* Spritesheet animation (next week)
-
---
 
 ### Learning Objectives
 

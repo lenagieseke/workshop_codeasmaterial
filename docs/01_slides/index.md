@@ -53,7 +53,18 @@ In this section you find all slides for the course.
 
 ## Day 3
 
+* [Example Line Drawing Algorithm](../01_slides/codeasmaterial_day3_examplelines_slides.html)
 * [Slides 07 - Loops](../01_slides/codeasmaterial_07_loops_slides.html) 
+
+
+### Code Examples
+
+* [Interactive Smiley](https://editor.p5js.org/legie/sketches/0lByVe-mH)
+* [10 Print Pattern](https://editor.p5js.org/legie/sketches/nrfQTzxMI)
+* [Interactive Circles on a Grid](https://editor.p5js.org/legie/sketches/HkHM-OSag)
+* [Loop Inside Draw](https://editor.p5js.org/legie/sketches/P9nGLtSJq) ([as circle](https://editor.p5js.org/legie/sketches/q53DdC1ul)) 
+  
+
 
 <!--
   
@@ -97,16 +108,10 @@ Week 5
 
 Week 4
 
-* [10 Print Pattern](https://editor.p5js.org/legie/sketches/nrfQTzxMI)
-* [Interactive Circles on a Grid](https://editor.p5js.org/legie/sketches/HkHM-OSag)
-* [Loop Inside Draw](https://editor.p5js.org/legie/sketches/P9nGLtSJq) ([as circle](https://editor.p5js.org/legie/sketches/q53DdC1ul)) 
-  
-
 
 Week 3
 
 
-* [Interactive Smiley](https://editor.p5js.org/legie/sketches/0lByVe-mH)
 
 
 
