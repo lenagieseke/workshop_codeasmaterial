@@ -337,7 +337,7 @@ arc(4, 5, 5, 7, radians(30), radians(360));
 .left-quarter[
     
 <br /><br />
-<img src="../02_exercises/01_intro/img/face.png" alt="face" style="width:80%;">
+<img src="../02_exercises/01_intro/img/face_02.png" alt="face" style="width:80%;">
 ]
 
 --

@@ -19,11 +19,6 @@ class: center, middle, inverse
 
 
 ---
-template:inverse
-
-# Loops
-
----
 layout:false
 
 
@@ -31,11 +26,11 @@ layout:false
 .right-even[]
 
 
-.center[<img src="../02_scripts/img/loops/ten_print.png" alt="ten_print" style="width:92%;">]
+.center[<img src="../01_slides/img/loops/ten_print.png" alt="ten_print" style="width:92%;">]
 
 --
 
-.center[*What do we see? Can you find the underlying algorithm?*]
+.center[*What was the underlying algorithm again?*]
 
 ---
 layout:false
@@ -43,7 +38,7 @@ layout:false
 ## The `10 PRINT` Pattern
 
 
-<img src="../02_scripts/img/loops/ten_print.png" alt="ten_print" style="width:50%;">
+<img src="../01_slides/img/loops/ten_print.png" alt="ten_print" style="width:50%;">
 
 
 Algorithm
@@ -55,7 +50,7 @@ Algorithm
 
 ---
 
-![ten_print_commodore](../02_scripts/img/loops/ten_print_commodore.png)
+![ten_print_commodore](../01_slides/img/loops/ten_print_commodore.png)
 
 The original BASIC program for the Commodore 64:
 
@@ -97,7 +92,7 @@ f="╱╲";while :;do print -n ${f[(RANDOM % 2) + 1]};done
 
 *How could we modify the pattern? Which parameters do we have?*
 
-![ten_print](../02_scripts/img/loops/ten_print.png)
+![ten_print](../01_slides/img/loops/ten_print.png)
 
 
 ---
@@ -106,7 +101,7 @@ f="╱╲";while :;do print -n ${f[(RANDOM % 2) + 1]};done
 
 ### Spacing
 
-![ten_print_quadratic](../02_scripts/img/loops/ten_print_quadratic.png) ![ten_print_spacing](../02_scripts/img/loops/ten_print_spacing.png)
+![ten_print_quadratic](../01_slides/img/loops/ten_print_quadratic.png) ![ten_print_spacing](../01_slides/img/loops/ten_print_spacing.png)
 
 ---
 
@@ -116,8 +111,8 @@ f="╱╲";while :;do print -n ${f[(RANDOM % 2) + 1]};done
 
 E.g. 90% probability for a backslash
 
-![ten_print_quadratic](../02_scripts/img/loops/ten_print_quadratic.png)
-![ten_print_prob](../02_scripts/img/loops/ten_print_prob.png)
+![ten_print_quadratic](../01_slides/img/loops/ten_print_quadratic.png)
+![ten_print_prob](../01_slides/img/loops/ten_print_prob.png)
 
 
 ???
@@ -201,7 +196,7 @@ print('All done…');
 
 ## `while`-Loop
 
-.center[<img src="../02_scripts/img/loops/ch02_04.png" alt="ten_print" style="width:60%;">.imgref[[[michaelkipp]](http://michaelkipp.de/processing/07%20schleifen.html)]]
+.center[<img src="../01_slides/img/loops/ch02_04.png" alt="ten_print" style="width:60%;">.imgref[[[michaelkipp]](http://michaelkipp.de/processing/07%20schleifen.html)]]
 
 ---
 
@@ -217,7 +212,7 @@ function draw() {
 
     while (counter < 30) { // Loop condition
     
-        ellipse(mouseX + random(100), mouseY + random(100), 10, 10);
+        circle(mouseX + random(100), mouseY + random(100), 10);
         counter += 1; // Increase counter
     }
 }
@@ -234,7 +229,7 @@ What is exactly happening here? What is repeated when?
 
 ???
 
-.task[COMMENT:]  
+  
 
 * Even though the while-loop works just fine with setting up a counter and increasing it manually, it is there is another way of creating loops which gives us more control and is less error prone.
 * Before we have a look into `for`-loops, let's review the general loop logic.
@@ -249,7 +244,7 @@ What is exactly happening here? What is repeated when?
 
 ## Test If A Point Is Inside A Circle
 
-.left-even[<img src="../02_scripts/img/loops/circle_01.png" alt="circle_01" style="width:100%;">.imgref[[[wiki]](https://www.wikiwand.com/en/Circle)]]
+.left-even[<img src="../01_slides/img/loops/circle_01.png" alt="circle_01" style="width:100%;">.imgref[[[wiki]](https://www.wikiwand.com/en/Circle)]]
 
 
 
@@ -393,7 +388,7 @@ for(let i = 0; i < numberOfTimes; i++) {
 
 ???
 
-.task[COMMENT:]  
+  
 
 * You can chose any variable name as iterator
     * `i` as short for iterator is just typical
@@ -446,7 +441,7 @@ for(let counter = 0; counter < 3; counter++){
 
 The for loop follows the same logic as the while loop:
 
-.center[<img src="../02_scripts/img/loops/ch02_04.png" alt="ten_print" style="width:60%;">.imgref[[[michaelkipp]](http://michaelkipp.de/processing/07%20schleifen.html)]]
+.center[<img src="../01_slides/img/loops/ch02_04.png" alt="ten_print" style="width:60%;">.imgref[[[michaelkipp]](http://michaelkipp.de/processing/07%20schleifen.html)]]
 
 
 ---
@@ -501,7 +496,7 @@ print(i); //gives an error
 
 *How to create something like the following?*
 
-.center[<img src="../02_scripts/img/loops/ch05_04.png" alt="name" style="width:55%;">]
+.center[<img src="../01_slides/img/loops/ch05_04.png" alt="name" style="width:55%;">]
 
 ---
 template:inverse
@@ -528,7 +523,7 @@ As we are working on a 2D canvas in x and y, often times a 2D loop is used to fi
 
 --
 
-![ch01_06](../02_scripts/img/loops/ch05_05.png)  
+![ch01_06](../01_slides/img/loops/ch05_05.png)  
 
 
 ---
@@ -537,7 +532,7 @@ As we are working on a 2D canvas in x and y, often times a 2D loop is used to fi
 
 **For every row, look at every element…**
 
-![ch01_06](../02_scripts/img/loops/ch05_06.png)  
+![ch01_06](../01_slides/img/loops/ch05_06.png)  
 
 ---
 
@@ -545,7 +540,7 @@ As we are working on a 2D canvas in x and y, often times a 2D loop is used to fi
 
 **For every row, look at every element…**
 
-![ch01_07](../02_scripts/img/loops/ch05_07.png)  
+![ch01_07](../01_slides/img/loops/ch05_07.png)  
 
 ---
 
@@ -553,7 +548,7 @@ As we are working on a 2D canvas in x and y, often times a 2D loop is used to fi
 
 **For every row, look at every element…**
 
-![ch01_08](../02_scripts/img/loops/ch05_08.png)  
+![ch01_08](../01_slides/img/loops/ch05_08.png)  
 
 ---
 
@@ -561,7 +556,7 @@ As we are working on a 2D canvas in x and y, often times a 2D loop is used to fi
 
 **For every row, look at every element…**
 
-![ch01_09](../02_scripts/img/loops/ch05_09.png)  
+![ch01_09](../01_slides/img/loops/ch05_09.png)  
 
 ---
 
@@ -656,7 +651,7 @@ function draw() {
 
 
 ???
-.task[COMMENT:]  
+  
 
 * We need to take larger steps to draw fewer rectangles. We can create a nice continuos grid, when taking the size of the rectangle also as the step size.
 
@@ -696,7 +691,7 @@ function draw() {
 
 
 ???
-.task[COMMENT:]  
+  
 
 * Now, we can for example also draw ellipses along the grid.
 
@@ -737,7 +732,7 @@ function draw() {
 
 
 ???
-.task[COMMENT:]  
+  
 
 * Why is there this strange offset around the border?
 * Because we are drawing the ellipses at the left upper corner (0,0) of each cell.
@@ -779,7 +774,7 @@ function draw() {
 
 
 ???
-.task[COMMENT:]  
+  
 
 * Shifting the drawing of the ellipse to the center of the grid cell.
 
@@ -864,7 +859,7 @@ function draw() {
     
     
     // Mapping the value range mouseX, and mouseY
-    // can have to 5..500 with the map function
+    // to be between 5..250 with the map function
     // https://p5js.org/reference/#/p5/map
     let diameterX = map(mouseX, 0, windowWidth, 5, 250);
     let diameterY = map(mouseY, 0, windowHeight, 5, 250);
@@ -887,8 +882,9 @@ function draw() {
 
 
 ???
-.task[COMMENT:]  
+  
 
+DO THIS WITH ALL
 * For making the pattern more interesting, we  control the width and height of the ellipses with mouseX and mouseY. 
 * For that we need to map the possible value range of 0..1000 that mouseX and mouseY can have to a smaller range, e.g., 5..500 for having a reasonable sizes for the ellipse:
 
@@ -897,9 +893,9 @@ function draw() {
 
 ## The 10 PRINT Example
 
-Remember this intro? Now we know how to implement the 10 PRINT example!
+Now we know how to implement the 10 PRINT example!
 
-![ch05_01](../02_scripts/img/loops/ch05_01.png)  
+![ch05_01](../01_slides/img/loops/ch05_01.png)  
 [[10print.org]](https://10print.org/)
 
 ---
@@ -928,7 +924,7 @@ else {
 
 
 ???
-.task[COMMENT:]  
+  
 
 * Can someone explain how this works?
 

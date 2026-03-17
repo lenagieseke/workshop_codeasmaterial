@@ -9,7 +9,7 @@ has_children: false
 # Creative Coding Foundations for Artistic and Design Practices
 
 
-#### Prof. Dr. Lena Gieseke | lena.gieseke@filmuniversitaet.de  
+#### Prof. Dr. Lena Gieseke | l.gieseke@filmuniversitaet.de  
 
 <br />
 
@@ -43,11 +43,22 @@ In this section you find all slides for the course.
 * [Slides 04 - Program Flow & Interaction](../01_slides/codeasmaterial_04_flow_slides.html)
 * [Slides 05 - Conditionals](../01_slides/codeasmaterial_05_conditionals_slides.html)
 * [Slides 06 - Variables](../01_slides/codeasmaterial_06_variables_slides.html)
+
+### Code Examples
+
+* [HSB Color Lines](https://editor.p5js.org/legie/sketches/Twi0zY9q6) ([with variables](https://editor.p5js.org/legie/sketches/SqtX-ElZP))
+* [Mouse & Keys Input](https://editor.p5js.org/legie/sketches/HDWQbzDU8)
+* [Circle Animation](https://editor.p5js.org/legie/sketches/dJcTRYKbC)
   
+
+## Day 3
+
+* [Slides 07 - Loops](../01_slides/codeasmaterial_07_loops_slides.html) 
+
 <!--
   
 
-* [Slides 07 - Loops](ccfb_ss25_07_loops_slides.html) 
+
 * [Slides 08 - Programming](ccfb_ss25_08_programming_slides.html) 
 * [Slides 09 - Images](ccfb_ss25_09_images_slides.html) 
 * [Slides 10 - Arrays](./ccfb_ss25_10_arrays_slides.html) 
@@ -94,15 +105,10 @@ Week 4
 
 Week 3
 
-* [Circle Animation](https://editor.p5js.org/legie/sketches/dJcTRYKbC)
-* [Colored Line Animation](https://editor.p5js.org/legie/sketches/pA5Ddli51)
+
 * [Interactive Smiley](https://editor.p5js.org/legie/sketches/0lByVe-mH)
 
 
-Week 2
-
-* [HSB Color Lines](https://editor.p5js.org/legie/sketches/Twi0zY9q6) ([with variables](https://editor.p5js.org/legie/sketches/SqtX-ElZP))
-* [Mouse & Keys Input](https://editor.p5js.org/legie/sketches/HDWQbzDU8)
 
 
 -->

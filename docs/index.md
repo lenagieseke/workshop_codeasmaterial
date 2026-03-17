@@ -9,7 +9,7 @@ has_children: false
 # Creative Coding Foundations for Artistic and Design Practices
 
 
-#### Prof. Dr. Lena Gieseke | lena.gieseke@filmuniversitaet.de  
+#### Prof. Dr. Lena Gieseke | l.gieseke@filmuniversitaet.de  
 
 <br />
 
