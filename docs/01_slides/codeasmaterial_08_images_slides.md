@@ -100,7 +100,7 @@ You have to add the image to you project.
 
 <br/>
 
-.center[<img src="../02_scripts/img/images/p5_editor_loading_01.png" alt="p5_editor_loading_01" style="width:100%;">]
+.center[<img src="./img/images/p5_editor_loading_01.png" alt="p5_editor_loading_01" style="width:100%;">]
 
 
 
@@ -217,7 +217,7 @@ Objects have properties and functions that *belong to* them.
 ## The Image Object
 
 
-.center[<img src="../02_scripts/img/images/image_object_01.png" alt="image_object_01" style="width:50%;">]
+.center[<img src="./img/images/image_object_01.png" alt="image_object_01" style="width:50%;">]
 
 ---
 
@@ -340,13 +340,13 @@ template:inverse
 
 ## Pixel Data
 
-.center[<img src="../02_scripts/img/images/panda.jpg" alt="panda" style="width:40%;">]
+.center[<img src="./img/images/panda.jpg" alt="panda" style="width:40%;">]
 
 ---
 
 ## Pixel Data
 
-.center[![panda_02.jpg](../02_scripts/img/images/panda_02.jpg)]
+.center[![panda_02.jpg](./img/images/panda_02.jpg)]
 
 ???
 
@@ -422,13 +422,13 @@ template: inverse
 ---
 ## Pointillism
 
-.center[<img src="../02_scripts/img/images/pointillism.jpg" alt="pointillism" style="width:60%;">]
+.center[<img src="./img/images/pointillism.jpg" alt="pointillism" style="width:60%;">]
 
 ---
 ## Fake Pointillism
 
 
-.center[<img src="../02_scripts/img/images/pointillism_01.png" alt="pointillism_01" style="width:90%;">]
+.center[<img src="./img/images/pointillism_01.png" alt="pointillism_01" style="width:90%;">]
 
 ???
 
@@ -450,7 +450,7 @@ https://editor.p5js.org/legie/sketches/GN4wMPz4x
 ## Fake Pointillism
 
 
-.center[<img src="../02_scripts/img/images/lake.png" alt="lake" style="width:40%;"> <img src="../02_scripts/img/images/pointillism_01.png" alt="pointillism_01" style="width:40%;">]
+.center[<img src="./img/images/lake.png" alt="lake" style="width:40%;"> <img src="./img/images/pointillism_01.png" alt="pointillism_01" style="width:40%;">]
 
 --
 
@@ -469,7 +469,7 @@ https://editor.p5js.org/legie/sketches/GN4wMPz4x
 ## Fake Pointillism
 
 
-.center[<img src="../02_scripts/img/images/lake.png" alt="lake" style="width:40%;"> <img src="../02_scripts/img/images/pointillism_01.png" alt="pointillism_01" style="width:40%;">]
+.center[<img src="./img/images/lake.png" alt="lake" style="width:40%;"> <img src="./img/images/pointillism_01.png" alt="pointillism_01" style="width:40%;">]
 
 
 ### Steps?
@@ -518,13 +518,13 @@ function draw() {
 
 ## Stretching
 
-<img src="../02_scripts/img/images/pingu_stretch_01.png" alt="pingu_stretch_01" style="width:100%;">
+<img src="./img/images/pingu_stretch_01.png" alt="pingu_stretch_01" style="width:100%;">
 
 ---
 
 ## Stretching
 
-<img src="../02_scripts/img/images/pingu_stretch_01.png" alt="pingu_stretch_01" style="width:45%;">
+<img src="./img/images/pingu_stretch_01.png" alt="pingu_stretch_01" style="width:45%;">
 
 --
 
@@ -540,7 +540,7 @@ function draw() {
 
 ## Stretching
 
-<img src="../02_scripts/img/images/pingu_stretch_01.png" alt="pingu_stretch_01" style="width:45%;">
+<img src="./img/images/pingu_stretch_01.png" alt="pingu_stretch_01" style="width:45%;">
 
 
 ???
@@ -620,7 +620,7 @@ https://openprocessing.org/sketch/1257098 -->
 
 ## Brownian Motion Lines
 
-.center[<img src="../02_scripts/img/images/brownian_01.png" alt="brownian_01" style="width:80%;">]
+.center[<img src="./img/images/brownian_01.png" alt="brownian_01" style="width:80%;">]
 
 
 
@@ -637,7 +637,7 @@ https://openprocessing.org/sketch/1256917
 
 ## Brownian Motion Lines
 
-.center[<img src="../02_scripts/img/images/fishies.gif" alt="fishies" style="width:110%;">]
+.center[<img src="./img/images/fishies.gif" alt="fishies" style="width:110%;">]
 
 
 
@@ -654,7 +654,7 @@ https://editor.p5js.org/legie/sketches/WWsJj-V0D
 
 ## Brownian Motion Lines
 
-<img src="../02_scripts/img/images/brownian_01.png" alt="fishies" style="width:24%;">
+<img src="./img/images/brownian_01.png" alt="fishies" style="width:24%;">
 
 --
 
@@ -673,7 +673,7 @@ https://editor.p5js.org/legie/sketches/WWsJj-V0D
 
 ## Brownian Motion Lines
 
-<img src="../02_scripts/img/images/brownian_01.png" alt="fishies" style="width:24%;">
+<img src="./img/images/brownian_01.png" alt="fishies" style="width:24%;">
 
 
 ### Steps?
