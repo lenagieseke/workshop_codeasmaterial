@@ -16,7 +16,7 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de
 ---
 
   
-## Exercise 03 - Looping
+## Exercise 03 - Loops
 
 
 ### Task 03.01 - Line Drawing Algorithm
