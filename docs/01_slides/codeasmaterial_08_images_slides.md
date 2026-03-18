@@ -25,19 +25,17 @@ layout:false
 --
 * Image Manipulations
 
+--
 
-### Learning Objectives
+<br />
 
 With this topic you
 
 --
-* know how to work with images,
+* know how to work with images, and
 
 --
-* understand how to manipulate images, and
-
---
-* understand the concept of image animations (next week).
+* understand how to manipulate images.
 
 ---
 layout:false

@@ -56,6 +56,8 @@ layout:false
 --
 * Loops
 
+--
+* Exercise
 
 
 ---

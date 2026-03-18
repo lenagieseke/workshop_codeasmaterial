@@ -1032,10 +1032,10 @@ for(int i = 0; i < numberOfTimes; i++)…
 *For every row look at every element…*
 
 ```js
-for (let y = 0; y < numberRows; y++)
-{
-    for (let x = 0; x < numberColumns; x++)
-    {
+for (let y = 0; y < numberRows; y++) {
+    
+    for (let x = 0; x < numberColumns; x++) {
+
         print("Row: " + y + " Column: " + x);
     }
 }
@@ -1045,6 +1045,197 @@ for (let y = 0; y < numberRows; y++)
 
 Use the [reference](https://p5js.org/reference/) 🚒
 
+
+---
+template:inverse
+
+## Algorithmic Thinking Examples
+
+
+???
+   
+
+* https://editor.p5js.org/legie/sketches/ZMRephHbg
+
+* For a better understanding of the grid structure and also of operators, here a couple of examples.
+
+---
+
+## Algorithmic Thinking Examples
+
+*How can you control the fill command to create the following examples?*
+
+.center[<img src="./img/loops/ch05_10.png" alt="ch05_10" style="width:38%;">]
+
+---
+.header[2D Loops]
+
+```js
+// https://editor.p5js.org/legie/sketches/lWJGIhhtI
+function draw() {
+
+    // Nested loop to run over all pixels of the canvas
+    for (let y = 0; y < canvasSize; y+=stepSize) {
+        for (let x = 0; x < canvasSize; x+=stepSize) {
+
+
+            fill(255);
+            // Changing the fill color
+            // only for the cells on the
+            // diagonal
+            if ( y == x) {
+                fill(0);
+            }
+
+            rect(x, y, stepSize, stepSize);
+        }
+    }
+}
+```
+
+---
+
+
+### Algorithmic Thinking Examples
+
+.center[<img src="./img/loops/ch05_11.png" alt="ch05_11" style="width:48%;">]
+
+---
+
+
+```js
+// https://editor.p5js.org/legie/sketches/5x1bAs66K
+
+function draw() {
+
+    for (let y = 0; y < canvasSize; y+=stepSize) {
+        for (let x = 0; x < canvasSize; x+=stepSize) {
+
+            stroke(0);
+            fill(255);
+
+            if (x > y) {
+                stroke(255);
+                fill(0);
+            }
+
+            rect(x, y, stepSize, stepSize);
+        }
+    }
+}
+```
+
+---
+
+
+### Algorithmic Thinking Examples
+
+
+.center[<img src="./img/loops/ch05_12.png" alt="ch05_12" style="width:48%;">]
+
+
+???
+   
+
+* The overall logic to create a checkerboard is to fill every other cell black and to shift that every other row. 
+
+* You could also say that in the even rows (meaning the 0., 2., 4. row...), the even columns (meaning the 0., 2., 4. column...) should be black, and in the uneven rows, the uneven cells should be black.
+
+* You can identify even numbers with the modulo operator.
+
+---
+template:inverse
+
+### Syntax
+
+## The Modulo Operator
+
+---
+
+
+
+## The Modulo Operator
+
+--
+
+The [modulo](https://www.computerhope.com/jargon/m/modulo.htm) operator returns for a division with a whole number the rest of that division:
+
+```js
+// Pseudo Code
+ 5 / 2 is 2 with rest 1
+ 8 / 2 is 4 with rest 0
+ 6 / 3 is 2 with rest 0
+30 / 9 is 3 with rest 3
+```
+--
+```
+ 5 % 2 = 1  
+ 8 % 2 = 0  
+ 6 % 3 = 0  
+30 % 9 = 3  
+
+```
+
+
+???
+
+```
+5 / 2 is 2 (the quotient) with rest 1  
+
+x / y is quotient q with rest r
+x = q * y + r
+```
+
+---
+
+
+## The Modulo Operator
+
+This comes in handy when testing for even numbers:
+
+--
+
+```js
+let number = 7;
+
+if (number % 2 == 0) {
+
+    print("even");
+}
+```
+
+
+---
+```js
+// https://editor.p5js.org/legie/sketches/_NHk4arDR
+function draw() {
+
+    for (let y = 0; y < canvasSize; y += stepSize) {
+        for (let x = 0; x < canvasSize; x += stepSize) {
+            fill(255);
+
+            // We need to divide by stepSize
+            // to get the indices
+            let row = y / stepSize;
+            let column = x / stepSize;
+
+            if ( ((row % 2 == 0) && (column % 2 == 0)) ||
+                 ((row % 2 != 0) && (column % 2 != 0)) ) {
+
+                    fill(0);
+            } 
+            rect(x, y, stepSize, stepSize);
+        }
+    }
+}
+```
+
+
+???
+* In our example, we can not work directly with the pixel coordinates, as by adding an even `stepSize` for the grid, we only have even pixel coordinates, such as 0, 100, 200,... 
+* We need to divide the coordinates by `stepSize` to get the indices of the cells, with which we then want to do the modulo operation. 
+
+???
 
 
 

@@ -7,7 +7,7 @@ class: center, middle, inverse
 
 ## From Instruction to Expression
 
-#### - Day 2 Overview -
+#### - Day 4 Overview -
 
 <br />
 ### Prof. Dr. Lena Gieseke | l.gieseke@filmuniversitaet.de  
@@ -21,21 +21,13 @@ class: center, middle, inverse
 ---
 layout:false
 
-## Recap Day 2
+## Recap Day 3
 
---
+TODO:
 
-* Brief exercise recap
 
---
-
-* Code Example *Lines*
-
---
 * Loops
 
---
-* Algorithmic Thinking
 
 
 
@@ -44,9 +36,12 @@ layout:false
 
 ## Day 4
 
-TODO:
 
-* Brief exercise recap
+
+* TODO: Brief exercise recap
+
+--
+* Algorithmic Thinking
 
 --
 
