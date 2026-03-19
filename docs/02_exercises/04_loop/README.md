@@ -29,7 +29,7 @@ Here an example:
 
 *Submission*: Add a link to your sketch in your OwnCloud file.
 
-#### Task 04.02 - Interactive Parameters
+## Task 04.02 - Interactive Parameters
 
 Make your pattern interactive by mapping at least one changeable visual characteristics to, e.g., the mouse and / or keys.
 
@@ -46,11 +46,11 @@ Write down an algorithm (e.g., in pseudo code or as bullet points; a drawing cou
 
 Write a program that manipulates an image. I recommend that you first further investigate the [image object](https://p5js.org/reference/p5/p5.Image) and [possible functions](https://p5js.org/reference/#Image) in the reference. Also, feel free to use the code from the lecture as basis.
 
-*Submission*: Add a link to your sketch in your OwnCloud file.
-
 
 ---
+---
 
+<br />
 That's it. It was a pleasure!
 
 ![tom](img/tom.gif)  
