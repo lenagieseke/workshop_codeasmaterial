@@ -16,7 +16,7 @@ Prof. Dr. Lena Gieseke \| l.gieseke@filmuniversitaet.de
 ---
 
   
-## Exercise 04 - Loops
+# Exercise 04 - Loops
 
 
 ## Task 04.01 - A Grid Pattern
