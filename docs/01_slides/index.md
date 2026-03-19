@@ -53,6 +53,7 @@ In this section you find all slides for the course.
 
 ## Day 3
 
+* [Lecture Code as Material - From Instruction to Expression](https://lenagieseke.github.io/lecture_codeasmaterial/#1)
 * [Example Line Drawing Algorithm](../01_slides/codeasmaterial_day3_examplelines_slides.html)
 
 ### Code Examples
