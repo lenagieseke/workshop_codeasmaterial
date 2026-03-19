@@ -64,7 +64,7 @@ In this section you find all slides for the course.
 ## Day 4
 
 * [Slides 07 - Loops](../01_slides/codeasmaterial_07_loops_slides.html) 
-* [Slides 08 - Programming](../01_slides/codeasmaterial_08_programming_slides.html)
+* [Slides 08 - Creative Coding & Algorithmic Thinking](../01_slides/codeasmaterial_08_programming_slides.html)
 * [Slides 09 - Images](../01_slides/codeasmaterial_09_images_slides.html)
 * [Slides 10 - Wrap Up](../01_slides/codeasmaterial_10_wrapup_slides.html)
 
