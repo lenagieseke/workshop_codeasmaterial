@@ -69,53 +69,14 @@ f="╱╲";while :;do print -n ${f[(RANDOM % 2) + 1]};done
 
 
 ???
-.task[TASK:]  
 
-* Show terminal version
 
----
-
-## The `10 PRINT` Pattern
-
-```bash
-10 PRINT CHR$(205.5+RND(1)); : GOTO 10
-```
 
 * BASIC program from the 1980s
 * Considered a phenomenon of creative coding through its simplicity and visual appeal
 * There is a whole [book](http://10print.org/) dedicated to this line of code
 * You can watch the author talk about his work on [youtube](https://www.youtube.com/watch?v=34CXQr5OLas)
 
----
-
-## The `10 PRINT` Pattern
-
-*How could we modify the pattern? Which parameters do we have?*
-
-![ten_print](../01_slides/img/loops/ten_print.png)
-
-
----
-
-## The `10 PRINT` Pattern
-
-### Spacing
-
-![ten_print_quadratic](../01_slides/img/loops/ten_print_quadratic.png) ![ten_print_spacing](../01_slides/img/loops/ten_print_spacing.png)
-
----
-
-## The `10 PRINT` Pattern
-
-### Probability
-
-E.g. 90% probability for a backslash
-
-![ten_print_quadratic](../01_slides/img/loops/ten_print_quadratic.png)
-![ten_print_prob](../01_slides/img/loops/ten_print_prob.png)
-
-
-???
 
 * As we are repeatedly placing a `/` or a `\` we need to learn how to repeat code for creating such a pattern. And that is coincidentally what you are going to learn in this script 😁.
 
@@ -154,7 +115,7 @@ For repeating the same code multiple times, there are two types of loops,
 
 while (condition is true) {
 
-    statement;
+    //code to repeat
 }
 ```
 
@@ -515,6 +476,10 @@ In the following, we are not learning any new syntax but only apply what we have
 
 As we are working on a 2D canvas in x and y, often times a 2D loop is used to fill a space, for example the canvas. You can imagine this as the filling of a grid.
 
+<br />
+.center[<img src="../01_slides/img/loops/ch05_04.png" alt="name" style="width:40%;">]
+
+
 ---
 
 ## 2D Loops
@@ -592,25 +557,8 @@ for (let gridY = 0; gridY < numberRows; gridY++) {
 }
 ```
 
----
-
-## 2D Loops
-
-```js
-// 2D For-Loop
-
-// Nested loop to run through the grid
-for (let y = 0; y < numberRows; y++) {
-
-    for (let x = 0; x < numberColumns; x++) {
-
-        print("Row: " + y + " Column: " + x);
-
-    }
-}
-```
-
 ???
+https://editor.p5js.org/legie/sketches/uO_y3MUZQ
 
 * But as said before, you normally used shorter names. The following is the same as this above but with different variable names. If the variables refer to x,y coordinate, you often also use x and y as iterator variable names:
 
@@ -619,7 +567,13 @@ for (let y = 0; y < numberRows; y++) {
 
 ## A Grid
 
-Now, we can, for example, draw a `rect` at each x,y coordinate within the 2D loop to create a grid. 
+Now, we can, for example, use `rect` within the 2D loop to create a grid:
+
+--
+
+<br />
+.center[<img src="../01_slides/img/loops/grid_01.png" alt="grid_01" style="width:30%;">]
+
 
 ---
 .header[2D Loops]
@@ -829,6 +783,50 @@ function draw() {
 
 </script>
 
+???
+Start: https://editor.p5js.org/legie/sketches/0lByVe-mH
+
+Show, making it into a loop
+* add let rectSize = 50;
+* make smiley repeat (the head)...
+
+End: https://editor.p5js.org/legie/sketches/fX_uZSsLo
+
+```
+function draw() {
+  //rect(50, 50, 400, 400);
+
+  fill(255, 255, 0);
+  
+
+  for (let y = 0; y < windowHeight; y += rectSize) {
+    for (let x = 0; x < windowWidth; x += rectSize) {
+      
+      circle(x + rectSize*0.5, y+ rectSize*0.5, 40);
+      
+      // Angry
+      if (!mouseIsPressed) {
+        //Eyes
+        line(x + 15, y + 18, x + 22, y + 25);
+        line(x + 38, y + 18, x + 31, y + 25);
+
+        // Mouth
+        arc(x + 25, y + 40, 30, 20, radians(200), radians(340));
+
+        // Happy
+      } else {
+        //Eyes
+        arc(x + 20, y + 25, 5, 8, radians(180), radians(360));
+        arc(x + 30, y + 25, 5, 8, radians(180), radians(360));
+
+        // Mouth
+        arc(x + 25, y + 28, 30, 20, 0, radians(180));
+      }
+    }
+  }
+}
+```
+
 
 ---
 .header[2D Loops]
@@ -886,7 +884,201 @@ function draw() {
 
 DO THIS WITH ALL
 * For making the pattern more interesting, we  control the width and height of the ellipses with mouseX and mouseY. 
-* For that we need to map the possible value range of 0..1000 that mouseX and mouseY can have to a smaller range, e.g., 5..500 for having a reasonable sizes for the ellipse:
+* For that we need to map the possible value range of 0..1000 that mouseX and mouseY can have to a smaller range, e.g., 5..500 for having a reasonable sizes for the ellipse
+
+---
+.header[2D Loops | Grids]
+
+## Interactive Circles
+
+--
+
+* Create a grid
+
+--
+
+* Draw one ellipse in each grid cell
+
+--
+
+* Change the ellipse's width and height based on `mouseX` and `mouseY`
+
+---
+.header[2D Loops | Grids | Interactive Circles | **1. Create a grid**]
+
+--
+
+
+```js
+function setup() {
+  createCanvas(400, 400);
+
+  noFill();
+}
+
+function draw() {
+  background(255);
+}
+```
+
+---
+.header[2D Loops | Grids | Interactive Circles | **1. Create a grid - First for-loop**]
+
+--
+
+```js
+let rectSize = 50;
+
+...
+
+function draw() {
+    background(255);
+
+    for (let y = 0; y < height; y+=rectSize) {
+
+    }
+  
+}
+```
+
+---
+.header[2D Loops | Grids | Interactive Circles | **1. Create a grid - Second for-loop**]
+
+--
+
+```js
+let rectSize = 50;
+
+...
+
+function draw() {
+    background(255);
+
+    for (let y = 0; y < height; y+=rectSize) {
+        for (let x = 0; x < width; x+=rectSize) {
+            rect(x, y, rectSize, rectSize);
+        }
+    }
+  
+}
+```
+
+---
+.header[2D Loops | Grids | Interactive Circles | **2. Draw one ellipse in each grid cell**]
+
+```js
+let rectSize = 50;
+
+...
+
+function draw() {
+    background(255);
+
+    for (let y = 0; y < height; y+=rectSize) {
+        for (let x = 0; x < width; x+=rectSize) {
+
+            ellipse(x + rectSize*0.5, y + rectSize*0.5, 30, 30);
+        }
+    }
+  
+}
+```
+
+---
+.header[2D Loops | Grids | Interactive Circles | **Change the ellipse's width and height based on `mouseX` and `mouseY`**]
+
+```js
+let rectSize = 50;
+
+...
+
+function draw() {
+    background(255);
+
+    for (let y = 0; y < height; y+=rectSize) {
+        for (let x = 0; x < width; x+=rectSize) {
+
+            ellipse(x + rectSize*0.5, y + rectSize*0.5, mouseX, mouseY);
+        }
+    }
+  
+}
+```
+
+---
+.header[2D Loops | Grids | Interactive Circles | **Mapping Values**]
+
+--
+
+```js
+let rectSize = 50;
+
+let diameterX = 10;
+let diameterY = 10;
+
+...
+
+function draw() {
+    background(255);
+
+    for (let y = 0; y < height; y+=rectSize) {
+        for (let x = 0; x < width; x+=rectSize) {
+
+            ellipse(x + rectSize*0.5, y + rectSize*0.5, diameterX, diameterY);
+        }
+    }
+  
+}
+```
+
+---
+.header[2D Loops | Grids | Interactive Circles | **Mapping Values**]
+
+<br />
+
+* [`map()`](https://p5js.org/reference/p5/map/)
+* Re-maps a number from one range to another.
+
+--
+
+<br />
+
+* We want to map the range the mouse can have (0..400) to a smaller range, e.g. 5..250
+
+???
+
+    // Mapping the value range mouseX, and mouseY
+    // to be between 5..250 with the map function
+    // https://p5js.org/reference/p5/map/
+    let diameterX = map(mouseX, 0, windowWidth, 5, 250);
+    let diameterY = map(mouseY, 0, windowHeight, 5, 250);
+
+
+---
+.header[2D Loops | Grids | Interactive Circles | **Mapping Values**]
+
+--
+
+```js
+...
+
+function draw() {
+    background(255);
+
+    let diameterX = map(mouseX, 0, windowWidth, 5, 250);
+    let diameterY = map(mouseY, 0, windowHeight, 5, 250);
+
+
+    for (let y = 0; y < height; y+=rectSize) {
+        for (let x = 0; x < width; x+=rectSize) {
+
+            ellipse(x + rectSize*0.5, y + rectSize*0.5, diameterX, diameterY);
+        }
+    }
+  
+}
+```
+
 
 ---
 
@@ -999,10 +1191,9 @@ function draw() {
 
 
 ???
+TASK:
 * https://editor.p5js.org/legie/sketches/nrfQTzxMI
-
-* TODO: https://editor.p5js.org/legie/sketches/fYvij_ACr
-* 
+* https://editor.p5js.org/legie/sketches/fYvij_ACr
 
 
 
@@ -1044,198 +1235,6 @@ for (let y = 0; y < numberRows; y++) {
 --
 
 Use the [reference](https://p5js.org/reference/) 🚒
-
-
----
-template:inverse
-
-## Algorithmic Thinking Examples
-
-
-???
-   
-
-* https://editor.p5js.org/legie/sketches/ZMRephHbg
-
-* For a better understanding of the grid structure and also of operators, here a couple of examples.
-
----
-
-## Algorithmic Thinking Examples
-
-*How can you control the fill command to create the following examples?*
-
-.center[<img src="./img/loops/ch05_10.png" alt="ch05_10" style="width:38%;">]
-
----
-.header[2D Loops]
-
-```js
-// https://editor.p5js.org/legie/sketches/lWJGIhhtI
-function draw() {
-
-    // Nested loop to run over all pixels of the canvas
-    for (let y = 0; y < canvasSize; y+=stepSize) {
-        for (let x = 0; x < canvasSize; x+=stepSize) {
-
-
-            fill(255);
-            // Changing the fill color
-            // only for the cells on the
-            // diagonal
-            if ( y == x) {
-                fill(0);
-            }
-
-            rect(x, y, stepSize, stepSize);
-        }
-    }
-}
-```
-
----
-
-
-### Algorithmic Thinking Examples
-
-.center[<img src="./img/loops/ch05_11.png" alt="ch05_11" style="width:48%;">]
-
----
-
-
-```js
-// https://editor.p5js.org/legie/sketches/5x1bAs66K
-
-function draw() {
-
-    for (let y = 0; y < canvasSize; y+=stepSize) {
-        for (let x = 0; x < canvasSize; x+=stepSize) {
-
-            stroke(0);
-            fill(255);
-
-            if (x > y) {
-                stroke(255);
-                fill(0);
-            }
-
-            rect(x, y, stepSize, stepSize);
-        }
-    }
-}
-```
-
----
-
-
-### Algorithmic Thinking Examples
-
-
-.center[<img src="./img/loops/ch05_12.png" alt="ch05_12" style="width:48%;">]
-
-
-???
-   
-
-* The overall logic to create a checkerboard is to fill every other cell black and to shift that every other row. 
-
-* You could also say that in the even rows (meaning the 0., 2., 4. row...), the even columns (meaning the 0., 2., 4. column...) should be black, and in the uneven rows, the uneven cells should be black.
-
-* You can identify even numbers with the modulo operator.
-
----
-template:inverse
-
-### Syntax
-
-## The Modulo Operator
-
----
-
-
-
-## The Modulo Operator
-
---
-
-The [modulo](https://www.computerhope.com/jargon/m/modulo.htm) operator returns for a division with a whole number the rest of that division:
-
-```js
-// Pseudo Code
- 5 / 2 is 2 with rest 1
- 8 / 2 is 4 with rest 0
- 6 / 3 is 2 with rest 0
-30 / 9 is 3 with rest 3
-```
---
-```
- 5 % 2 = 1  
- 8 % 2 = 0  
- 6 % 3 = 0  
-30 % 9 = 3  
-
-```
-
-
-???
-
-```
-5 / 2 is 2 (the quotient) with rest 1  
-
-x / y is quotient q with rest r
-x = q * y + r
-```
-
----
-
-
-## The Modulo Operator
-
-This comes in handy when testing for even numbers:
-
---
-
-```js
-let number = 7;
-
-if (number % 2 == 0) {
-
-    print("even");
-}
-```
-
-
----
-```js
-// https://editor.p5js.org/legie/sketches/_NHk4arDR
-function draw() {
-
-    for (let y = 0; y < canvasSize; y += stepSize) {
-        for (let x = 0; x < canvasSize; x += stepSize) {
-            fill(255);
-
-            // We need to divide by stepSize
-            // to get the indices
-            let row = y / stepSize;
-            let column = x / stepSize;
-
-            if ( ((row % 2 == 0) && (column % 2 == 0)) ||
-                 ((row % 2 != 0) && (column % 2 != 0)) ) {
-
-                    fill(0);
-            } 
-            rect(x, y, stepSize, stepSize);
-        }
-    }
-}
-```
-
-
-???
-* In our example, we can not work directly with the pixel coordinates, as by adding an even `stepSize` for the grid, we only have even pixel coordinates, such as 0, 100, 200,... 
-* We need to divide the coordinates by `stepSize` to get the indices of the cells, with which we then want to do the modulo operation. 
-
-???
 
 
 

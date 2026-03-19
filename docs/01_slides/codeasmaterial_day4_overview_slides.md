@@ -23,11 +23,101 @@ layout:false
 
 ## Recap Day 3
 
-TODO:
+--
+
+* [`constraint()`](https://p5js.org/reference/p5/constrain/)
+
+--
+
+<br />
+* Operation shortening
+
+```
+x = x + 1
+```
 
 
-* Loops
 
+---
+layout:false
+
+## Recap Day 3
+
+* [`constraint()`](https://p5js.org/reference/p5/constrain/)
+
+<br />
+* Operation shortening
+
+```
+x = x + 1   →    x += 1
+```
+
+--
+```
+x = x * step   →   x *= step
+```
+
+---
+layout:false
+
+## Recap Day 3
+
+* [`constraint()`](https://p5js.org/reference/p5/constrain/)
+
+<br />
+* Operation shortening
+
+```
+x = x + 1   →   x += 1
+```
+
+
+
+---
+layout:false
+
+## Recap Day 3
+
+* [`constraint()`](https://p5js.org/reference/p5/constrain/)
+
+<br />
+* Operation shortening
+
+```
+x = x + 1   →   x += 1   →   x++
+```
+
+
+---
+.header[Code as Material | Example *Line Drawing Algorithm* |  Possible Adjustments]
+
+## Bézier Curves
+
+
+Reference: [bezier](https://p5js.org/reference/p5/bezier/), [wikipedia](https://en.wikipedia.org/wiki/B%C3%A9zier_curve)
+
+
+```javascript
+
+function setup() {
+    noFill();
+}
+
+function draw() {
+
+    bezier(0, 0, lineStartX, lineStartY, lineEndX, lineEndY, 
+                                    windowWidth, windowHeight);
+
+}
+```
+
+???
+What is a Bézier curve
+* Start point → where the curve begins
+* End point → where it ends
+* Two control points → define how it bends
+
+The curve does not pass through the control points but they act like "directional forces".
 
 
 
@@ -36,11 +126,12 @@ TODO:
 
 ## Day 4
 
+--
 
-
-* TODO: Brief exercise recap
+* Loops
 
 --
+
 * Algorithmic Thinking
 
 --

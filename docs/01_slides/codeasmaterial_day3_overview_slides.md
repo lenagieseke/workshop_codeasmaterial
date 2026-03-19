@@ -53,11 +53,7 @@ layout:false
 
 * Code Example *Lines*
 
---
-* Loops
 
---
-* Exercise
 
 
 ---

@@ -131,6 +131,7 @@ function draw() {
 * The loadImage command loads an image from the given path. Because we uploaded our file to this sketch in OpenProcessing, we can just use the filename "panda.jpg". We could also put in a URL to an image file here.
 * When we run our sketch, p5 calls preload() first, and then pauses execution until loadImage has finished loading our image file.
 
+
 ---
 
 ## Loading And Displaying Images
@@ -183,6 +184,51 @@ function draw() {
   }
 }
 ```
+
+
+---
+
+## Animating Images
+
+The image parameters, e.g. its position, can be animated like any other shape in p5.
+
+---
+.header[Animating Images]
+
+```js
+//https://editor.p5js.org/legie/sketches/NA8Sqzyis
+function draw() {
+    background(255);
+
+    // POSITION: Increasing the position values
+    positionX = positionX + speedX;
+    positionY = positionY + speedY;
+  
+    // If the x position runs out of the canvas, reset the position to 0
+    if(positionX < 0 || positionX > windowWidth - imgPanda.width) {
+        speedX = speedX * -1;
+    }
+    // If the y position runs out of the canvas, reset the position to 0
+    if(positionY < 0 || positionY > windowHeight - imgPanda.height) {
+        speedY = speedY * -1;
+    }
+
+    image(imgPanda, positionX, positionY);
+}
+
+```
+
+
+
+
+
+???
+
+* Images can be animated like any other shape in p5
+* https://editor.p5js.org/legie/sketches/NA8Sqzyis
+
+
+
 
 
 ---
@@ -270,51 +316,6 @@ noTint();
 * And exactly like there's noFill() to remove the current fill value, there's noTint() to remove the current tint value
 * Show how to use it
 * https://www.openprocessing.org/sketch/1052031
-
-
-
-
-
----
-
-## Animating Images
-
-The image parameters, e.g. its position, can be animated like any other shape in p5.
-
----
-.header[Animating Images]
-
-```js
-//https://editor.p5js.org/legie/sketches/NA8Sqzyis
-function draw() {
-    background(255);
-
-    // POSITION: Increasing the position values
-    positionX = positionX + speedX;
-    positionY = positionY + speedY;
-  
-    // If the x position runs out of the canvas, reset the position to 0
-    if(positionX < 0 || positionX > windowWidth - imgPanda.width) {
-        speedX = speedX * -1;
-    }
-    // If the y position runs out of the canvas, reset the position to 0
-    if(positionY < 0 || positionY > windowHeight - imgPanda.height) {
-        speedY = speedY * -1;
-    }
-
-    image(imgPanda, positionX, positionY);
-}
-
-```
-
-
-
-
-
-???
-
-* Images can be animated like any other shape in p5
-* https://editor.p5js.org/legie/sketches/NA8Sqzyis
 
 
 
@@ -509,6 +510,11 @@ function draw() {
 ## Stretching
 
 <img src="./img/images/pingu_stretch_01.png" alt="pingu_stretch_01" style="width:100%;">
+
+
+???
+https://editor.p5js.org/legie/sketches/AYPVipmgS
+
 
 ---
 
