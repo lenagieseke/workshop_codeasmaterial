@@ -38,21 +38,19 @@ Class topics can be divided into what you learn about programming itself and its
 
 In regard to programming itself, we will cover:
 
-* Commands, variables
-* Events
+* Commands
+* Functions, Events
 * Conditions
+* Variables
 * Loops
-* Arrays
-* Functions
-* Maybe: Objects and Classes
+* Maybe: Arrays, Objects and Classes
 
 We apply these programming skills to implement:
 
 * Drawing, colors
 * Interaction
 * Movement / Animation
-* Image, video
-* Sound
+* Images
   
 
 Please note that topics are subject to change during the course!
